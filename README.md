@@ -20,19 +20,16 @@ related Machine Learning are the following:
    Requirements: Raw currency data .txt file to be downloaded from http://www.forextester.com/data/datasources. 
    Manual transformation from .txt to .csv file necessary.
 
-    ./python code 
+    ./python_code 
    Stores the python scripts used for data preparation, training, testing and evaluation
 
-    ./jupyter notebook code
+    ./jupyter_code
    Stores the jupyter notebook scripts to get further insights on data processing and model evaluation.
      
     ./results
    This directory will be created automatically upon completing step 2 below. 
-   It stores the trained model and results from both the training and testing python scripts.
-
-    ./results/figures 
-   This directory will be created automatically upon completing step 2 below.
-   Stores the generated figures from the results script.
+   It stores the trained model and results from both the training and testing python scripts as well as the 
+   generated figures from the results script.
 
 
 ## Steps to run the code
