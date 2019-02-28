@@ -20,10 +20,10 @@ related Machine Learning are the following:
    Requirements: Raw currency data .txt file to be downloaded from http://www.forextester.com/data/datasources. 
    Manual transformation from .txt to .csv file necessary.
 
-    ./code 
+    ./python code 
    Stores the python scripts used for data preparation, training, testing and evaluation
 
-    ./code/jupyter 
+    ./jupyter notebook code
    Stores the jupyter notebook scripts to get further insights on data processing and model evaluation.
      
     ./results
