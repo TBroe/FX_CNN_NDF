@@ -16,7 +16,9 @@ related Machine Learning are the following:
 ## Directory overview
 
     ./data 
-   Stores the raw currency timeseries data.
+   This directory needs to be created manually. It stores the raw currency timeseries data.
+   Requirements: Raw currency data .txt file to be downloaded from http://www.forextester.com/data/datasources. 
+   Manual transformation from .txt to .csv file necessary.
 
     ./code 
    Stores the python scripts used for data preparation, training, testing and evaluation
@@ -25,19 +27,19 @@ related Machine Learning are the following:
    Stores the jupyter notebook scripts to get further insights on data processing and model evaluation.
      
     ./results
-   Stores the trained model and results from the training and testing python scripts
+   This directory will be created automatically upon completing step 2 below. 
+   It stores the trained model and results from both the training and testing python scripts.
 
     ./results/figures 
+   This directory will be created automatically upon completing step 2 below.
    Stores the generated figures from the results script.
 
 
 ## Steps to run the code
 
-Note: Prefix for all python script references in this README is "FX_CNN_NDF". 
-
-Requirements: Raw data .txt file to be downloaded to the ./data directory. Manual transformation to .csv file necessary.
-
-Note: Currently only the two currency pairs: EUR/USD and GBP/JPY have been implemented as currency choices in the model.
+Note:
+Prefix for all python script references in this README is "FX_CNN_NDF". 
+Currently only the two currency pairs: EUR/USD and GBP/JPY have been implemented as currency choices in the model.
    
    ####Step 1: 
    Run script .data_preprocessing.py to generate the .csv files that are later used as training and test input. 
