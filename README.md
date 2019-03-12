@@ -32,12 +32,12 @@ related Machine Learning are the following:
 
 ## Packages
 
-    torch           1.0.1
-    torchvision     0.2.1
-    matplotlib      3.0.2
     numpy           1.16.1	
     pandas          0.24.1	
+    torch           1.0.1
+    torchvision     0.2.1
     scikit-learn    0.20.2	
+    matplotlib      3.0.2
 
 
 ## Steps to run the code
