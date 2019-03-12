@@ -30,17 +30,26 @@ related Machine Learning are the following:
    It stores the trained model and results from both the training and testing python scripts as well as the 
    generated figures from the results script.
 
+## Packages
+
+    torch           1.0.1
+    torchvision     0.2.1
+    matplotlib      3.0.2
+    numpy           1.16.1	
+    pandas          0.24.1	
+    scikit-learn    0.20.2	
+
 
 ## Steps to run the code
 
-Note:
-Prefix for all python script references in this README is "FX_CNN_NDF". 
-Currently only the two currency pairs: EUR/USD and GBP/JPY have been implemented as currency choices in the model.
+   Note: Prefix for all python script references in this README is "FX_CNN_NDF". 
    
    #### Step 1: 
    Download the raw currency data .txt file can be downloaded from http://www.forextester.com/data/datasources. 
    
    Transform the .txt files to .csv
+   
+   Currently only the two currency pairs: EUR/USD and GBP/JPY have been implemented as currency choices in the model.
    
    #### Step 2:
    Run script .data_preprocessing.py to generate the .csv files that are later used as training and test input. 
@@ -148,14 +157,7 @@ Currently only the two currency pairs: EUR/USD and GBP/JPY have been implemented
    CPU training of a standalone CNN in the day/hour setting with binary classification 
    and one day-ahead prediction for 75 epochs.
 
-## Packages
 
-    torch           1.0.1
-    torchvision     0.2.1
-    matplotlib      3.0.2
-    numpy           1.16.1	
-    pandas          0.24.1	
-    scikit-learn    0.20.2	
     
            
   
