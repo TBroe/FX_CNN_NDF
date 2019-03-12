@@ -18,7 +18,6 @@ related Machine Learning are the following:
     ./data 
    This directory needs to be created manually. It stores the raw currency timeseries data.
    The raw currency data .txt file can be downloaded from http://www.forextester.com/data/datasources. 
-   Manual transformation from .txt to .csv file necessary.
 
     ./python_code 
    Stores the python scripts used for data preparation, training, testing and evaluation
