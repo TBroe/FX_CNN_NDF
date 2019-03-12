@@ -39,6 +39,11 @@ Prefix for all python script references in this README is "FX_CNN_NDF".
 Currently only the two currency pairs: EUR/USD and GBP/JPY have been implemented as currency choices in the model.
    
    #### Step 1: 
+   Download the raw currency data .txt file can be downloaded from http://www.forextester.com/data/datasources. 
+   
+   Transform the .txt files to .csv
+   
+   #### Step 2:
    Run script .data_preprocessing.py to generate the .csv files that are later used as training and test input. 
    
    Note: The generated .csv files will be stored in the ./data directory. 
@@ -46,7 +51,7 @@ Currently only the two currency pairs: EUR/USD and GBP/JPY have been implemented
    For more details on the pre-processing please see the jupyter Notebook "FX_CNN_data_Day_Hour.ipynb".
    The Notebook is stored in the ./code/jupyter directory.
    
-   #### Step 2: 
+   #### Step 3: 
    Run .train.py script to generate the trained model and training results based on the pre-processed inputs.
    
    All training results are stored in the ./results directory.  
@@ -61,7 +66,7 @@ Currently only the two currency pairs: EUR/USD and GBP/JPY have been implemented
    
    Note: The main() function in train.py script calls functions from both .model.py and .data.py scripts.
    
-   #### Step 3: 
+   #### Step 4: 
    Run the .test.py script to evaluate trained model on the testset.
    
    The testset is generated in the with the prep_data() function in .data.py
@@ -70,7 +75,7 @@ Currently only the two currency pairs: EUR/USD and GBP/JPY have been implemented
    
    The testing results are printed directly in the console and are stored as a .csv file in the ./results directory.
    
-   #### Step 4: 
+   #### Step 5: 
    Inspect and compare the training and testing result using the .results.py script. 
    
    This script imports the earlier generated results of the train and test script.
